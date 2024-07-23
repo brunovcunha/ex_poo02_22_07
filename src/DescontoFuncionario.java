@@ -1,9 +1,7 @@
 public class DescontoFuncionario implements DescontoEstrategy{
 
-   private double consumo;
-
     @Override
-    public Double calcularDesconto(double desconto) {
+    public Double calcularDesconto(Double consumo) {
         return consumo * 0.3;
     }
 }

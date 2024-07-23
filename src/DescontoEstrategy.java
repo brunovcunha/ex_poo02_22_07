@@ -1,4 +1,4 @@
 public interface DescontoEstrategy {
-    Double calcularDesconto(double consumo);
+    Double calcularDesconto(Double consumo);
 
 }
